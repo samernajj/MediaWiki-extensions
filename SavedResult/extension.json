@@ -1,0 +1,35 @@
+{
+	"name": "SavedResult",
+	"version": "0.0.0",
+	"author": [
+		"Samer Najjar"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SavedResult",
+	"descriptionmsg": "SavedResult-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"AutoloadClasses": {
+		"SpecialSavedResult": "SpecialSavedResult.php"
+	},
+	"SpecialPages": {
+		"SavedResult": "SpecialSavedResult"
+	},
+	"MessagesDirs": {
+		"SavedResult": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.SavedResult": {
+			"scripts": [
+				"SavedResult.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "SavedResult/resources"
+	},
+
+	"manifest_version": 1
+}

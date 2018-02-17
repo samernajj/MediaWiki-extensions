@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Samer Najjar"
+        ]
+    },
+    "googlecustomsearchapi": "Google Custom Search API",
+	"googlecustomsearchapi-desc": "Adds the Google Custom Search API functionality.",
+	"googlecustomsearchapi-summary": "On this special page, do this simple thing and earn wonders."
+}

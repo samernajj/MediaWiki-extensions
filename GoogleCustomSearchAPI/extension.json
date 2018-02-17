@@ -1,0 +1,38 @@
+{
+	"name": "GoogleCustomSearchAPI",
+	"version": "0.0.0",
+	"author": [
+		"Samer Najjar"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:GoogleCustomSearchAPI",
+	"descriptionmsg": "GoogleCustomSearchAPI-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"AutoloadClasses": {
+		"SpecialGoogleCustomSearchAPI": "SpecialGoogleCustomSearchAPI.php",
+		"GoogleCustomSearchAPIHooks": "GoogleCustomSearchAPIHooks.php"
+	},
+	"SpecialPages": {
+		"GoogleCustomSearchAPI": "SpecialGoogleCustomSearchAPI"
+	},
+	"MessagesDirs": {
+		"GoogleCustomSearchAPI": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.GoogleCustomSearchAPI": {
+			"scripts": [
+				"GoogleCustomSearchAPI.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "GoogleCustomSearchAPI/resources"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "GoogleCustomSearchAPIHooks::onLoadExtensionSchemaUpdates"
+	},	
+	"manifest_version": 1
+}
